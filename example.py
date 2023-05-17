@@ -8,12 +8,9 @@ def test_add():
 
 
 def subtract(a, b):
-    return a + b  # <--- fix this in step 8
-
+    return a - b  # <--- fix this in step 8
 
 def test_subtract():
-   assert subtract(2, 3) == -1
-<<<<<<< HEAD
-=======
+    assert subtract(2, 3) == -1
 
->>>>>>> 62659471f9eb91102c0e59e4684d7af890f027f8
+
